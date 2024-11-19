@@ -27,10 +27,6 @@ public class FileLoader {
             System.out.println("Текст для сохранения не может быть пустым.");
             return;
         }
-        if (directory.isEmpty()) {
-            System.out.println("Директория не может быть пустой.");
-            return;
-        }
 
         Path filePath = Paths.get(directory, fileName);
 
